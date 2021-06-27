@@ -39,17 +39,28 @@ nav {
     color: white;
 }
 
-.flex-container {
+#index-flex-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.container {
+#portfolio-flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-#center img {
+#about-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+about div {
+    display: flex;
+    background-color: greenyellow;
     width: 300px;
+    padding: 5vw;
 }
