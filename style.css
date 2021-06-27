@@ -47,8 +47,12 @@ nav {
 
 #portfolio-flex-container {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
+}
+
+portfolio div {
+    padding: 2vw;
 }
 
 #about-flex-container {
