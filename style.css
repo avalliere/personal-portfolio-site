@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-    text-shadow: 0 0 5px greenyellow;
+    text-shadow: 0 0 5px lime;
 }
 
 p {
@@ -35,8 +35,13 @@ p {
 }
 
 nav {
-    background-color: black;
-    color: white;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav li:first-child {
+    font-size: 150%;
 }
 
 #index-flex-container {
