@@ -12,9 +12,6 @@ h1 {
     font-family: Basteleur;
 }
 
-/* #main {
-    flex: 80%;
-} */
 nav ul {
     font-family: Basteleur;
     margin: 0px;
@@ -26,8 +23,11 @@ a {
 }
 
 a:hover {
-    color: black;
-    background-color: white;
+    text-shadow: 0 0 5px greenyellow;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #gradient {
