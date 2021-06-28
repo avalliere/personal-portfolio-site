@@ -64,9 +64,19 @@ portfolio div {
 
 about div {
     display: flex;
-    background-color: greenyellow;
     width: 300px;
     padding: 5vw;
+}
+
+#about-child-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-child-flex-container p:not(:first-child) {
+    color: #303030;
+    font-style: italic;
+    font-size: 75%;
 }
 
 #blog-flex-container {
